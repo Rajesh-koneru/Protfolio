@@ -18,9 +18,11 @@
       background-color: #0c4a6e;
       border-radius: 0.25rem;
     }
+
+
   </style>
  </head>
- <body class="bg-gradient-to-r from-[#0f3a52] via-[#0a4e66] to-[#168296] font-sans text-white">
+ <body class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 font-sans text-white">
   <!-- Navbar -->
   <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
    <div class="font-semibold text-white text-sm sm:text-base">
@@ -33,27 +35,27 @@
      </a>
     </li>
     <li>
-     <a class="hover:text-white" href="#">
+     <a class="hover:text-white" href="#about">
       About
      </a>
     </li>
     <li>
-     <a class="hover:text-white" href="#">
+     <a class="hover:text-white" href="#projects">
       Projects
      </a>
     </li>
     <li>
-     <a class="hover:text-white" href="#">
+     <a class="hover:text-white" href="#skills">
       Skills
      </a>
     </li>
     <li>
-     <a class="hover:text-white" href="#">
+     <a class="hover:text-white" href="#education">
       Education
      </a>
     </li>
     <li>
-     <a class="hover:text-white" href="#">
+     <a class="hover:text-white" href="#contact">
       Contact
      </a>
     </li>
@@ -76,15 +78,15 @@
      <button class="bg-[#fcd9d0] text-[#0c4a6e] rounded-full px-6 py-2 text-sm font-semibold hover:bg-[#f9c9bc] transition">
       Contact Me
      </button>
-     <a class="inline-flex items-center border border-white/50 rounded-full px-5 py-2 text-sm font-semibold hover:border-white transition text-white/90" href="#">
-      <i class="fas fa-download mr-2">
+     <a class="inline-flex items-center border border-white/50 rounded-full px-5 py-2 text-sm font-semibold hover:border-white transition text-white/90" href="Rajesh resume.pdf">
+      <i class="">
       </i>
       Resume
      </a>
     </div>
    </div>
-   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1 max-w-lg">
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1 max-w-lg ">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover: text-black transition duration-300 ease-in-out">
      <i class="fas fa-code fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -94,7 +96,7 @@
       Writing maintainable, readable, and well-documented code
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover:text-black transition duration-300 ease-in-out">
      <i class="fas fa-shield-alt fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -104,7 +106,7 @@
       Implementing robust security measures and best practices
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover: text-black transition duration-300 ease-in-out">
      <i class="fas fa-bolt fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -114,7 +116,7 @@
       Optimizing for speed and efficiency
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover: text-black transition duration-300 ease-in-out">
      <i class="fas fa-database fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -124,7 +126,7 @@
       Efficient data structures and database optimization
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover: text-black transition duration-300 ease-in-out">
      <i class="fas fa-globe fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -134,7 +136,7 @@
       Building systems that can grow with demand
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90">
+    <div class="bg-white/20 rounded-md p-4 flex flex-col items-center text-center text-white/90 hover:bg-[#87CEEB] text-black hover: text-black transition duration-300 ease-in-out">
      <i class="fas fa-cogs fa-lg mb-2">
      </i>
      <h3 class="font-semibold mb-1">
@@ -147,7 +149,7 @@
    </div>
   </section>
   <!-- About Me Section -->
- <section class="flex flex-cols-1 gap-10 bg-[#fcd9d0] text-[#0c4a6e] py-12 px-6 max-w-7xl mx-auto">
+ <section class="flex flex-cols-1 gap-10 bg-blue-400 text-[#0c4a6e] py-12 px-6 max-w-7xl mx-auto" id="about">
   <div class="mx-w-4">
    <img src="/photos/rajesh image.jpg"  width="300" height="200" style="border-radius:500px;">
   </div>
@@ -155,34 +157,36 @@
   <!-- About Me Section -->
   <div class="flex flex-col justify-center max-w-2xl">
     <h2 class="text-4xl font-bold mb-4">About Me</h2>
-    <p class="text-lg leading-relaxed">
+    <p class="text-lg leading-relaxed text-black hover:text-blue-900 transition-colors duration-300 ease-in-out">
       Hello! I'm a passionate and dedicated developer with a strong interest in building intuitive, efficient, and engaging web applications.
       I enjoy transforming complex problems into simple, elegant solutions using modern tools and technologies. My experience ranges from backend development to frontend design,
       and I love learning new things every day.
     </p>
-    <p class="text-lg leading-relaxed mt-4">
+    <p class="text-lg leading-relaxed mt-4 text-black hover:text-blue-900 transition-colors duration-300 ease-in-out">
       Outside of coding, I’m enthusiastic about continuous learning, collaborating on meaningful projects, and exploring new ways to make technology more human-friendly.
     </p>
    <div class="flex gap-6 mt-6">
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="flex items-center gap-2 hover:underline hover:text-blue-700">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="24" height="24">
-        LinkedIn
+      <a href="https://www.linkedin.com/in/rajesh-koneru-0956b9318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="flex items-center gap-2 hover:hover:text-blue-700 ">
+       <i class="fab fa-linkedIn text-lg hover:text-xl transition-all duration-500 ease-in-out">  LinkedIn</i>
       </a>
-      <a href="https://www.instagram.com/yourprofile" target="_blank" class="flex items-center gap-2 hover:underline hover:text-pink-600">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="24" height="24">
-        Instagram
+      <a href="https://www.instagram.com/yourprofile" target="_blank" class="flex items-center gap-2 hover: hover:text-pink-600">
+       <i class="fab fa-instagram text-lg hover:text-xl transition-all duration-500 ease-in-out ">  Instagram</i>
+      </a>
+      <a href="https://github.com/Rajesh-koneru" target="_blank" class="flex items-center gap-2 hover: hover:text-black-600">
+       <i class="fab fa-github text-lg hover:text-xl transition-all duration-500 ease-in-out ">  GitHub</i>
       </a>
     </div>
   </div>
 </section>
 
   <!-- Projects Section -->
-  <section class="bg-gradient-to-r from-[#0f3a52] via-[#0a4e66] to-[#168296] py-12 px-6 max-w-7xl mx-auto">
+  <section class="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 py-12 px-6 max-w-7xl mx-auto" id="projects">
    <h2 class="text-center font-semibold mb-8 text-white">
     Projects
    </h2>
-   <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    <div class="bg-white/20 rounded-md p-4">
+   <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto ">
+    <div class="bg-white/20 rounded-md p-4 hover:bg-blue-500 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <img alt="AuditAvenger project showing a laptop with audit management system interface and people collaborating" class="rounded-md mb-3 w-full object-cover h-40" height="200" src="https://storage.googleapis.com/a1aa/image/74bacdd2-e358-49d9-5350-dd8f797767b5.jpg" width="400"/>
      <h3 class="font-semibold text-white mb-1">
       AuditAvenger
@@ -190,7 +194,7 @@
      <p class="text-xs text-white/90 mb-3">
       Comprehensive audit management system with advanced tracking and reporting capabilities
      </p>
-     <div class="flex space-x-4 text-white/90 text-xs">
+     <div class="flex space-x-4 text-white/90 text-xs ">
       <a class="flex items-center gap-1 hover:text-white" href="https://github.com/Rajesh-koneru/AuditAvengers">
        <i class="fas fa-code">
        </i>
@@ -203,7 +207,8 @@
       </a>
      </div>
     </div>
-    <div class="bg-white/20 rounded-md p-4">
+    <div class="bg-white/20 rounded-md p-4 hover:bg-blue-500 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <img alt="Portfolio Website project showing a laptop with portfolio website open on screen" class="rounded-md mb-3 w-full object-cover h-40" height="200" src="https://storage.googleapis.com/a1aa/image/5e108230-0bf5-44d5-d1e5-1ad781c28395.jpg" width="400"/>
      <h3 class="font-semibold text-white mb-1">
       Portfolio Website
@@ -224,7 +229,8 @@
       </a>
      </div>
     </div>
-    <div class="bg-white/20 rounded-md p-4">
+    <div class="bg-white/20 rounded-md p-4 hover:bg-blue-500 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <img alt="Sort Easy project showing a computer screen with sorting algorithm visualization tool" class="rounded-md mb-3 w-full object-cover h-40" height="200" src="https://storage.googleapis.com/a1aa/image/fd49a7af-db46-4990-0b5d-6ce29f7a814c.jpg" width="400"/>
      <h3 class="font-semibold text-white mb-1">
       Data Analysis Tool
@@ -233,7 +239,7 @@
       Data cleaning and sorting algorithm for easily accessing Data from the DataBase
      </p>
      <div class="flex space-x-4 text-white/90 text-xs">
-      <a class="flex items-center gap-1 hover:text-white" href="#">
+      <a class="flex items-center gap-1 hover:text-white" href="https://github.com/Rajesh-koneru/Analytic-Tool">
        <i class="fas fa-code">
        </i>
        Code
@@ -245,8 +251,9 @@
       </a>
      </div>
     </div>
-      <div class="bg-white/20 rounded-md p-4">
-     <img alt="Sort Easy project showing a computer screen with sorting algorithm visualization tool" class="rounded-md mb-3 w-full object-cover h-40" height="200" src="https://storage.googleapis.com/a1aa/image/fd49a7af-db46-4990-0b5d-6ce29f7a814c.jpg" width="400"/>
+      <div class="bg-white/20 rounded-md p-4 hover:bg-blue-500 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
+     <img alt="Sort Easy project showing a computer screen with sorting algorithm visualization tool" class="rounded-md mb-3 w-full object-cover h-40" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAn6T5jwnr6VAdNXBgYKq18BubyAQ0b9h9iQ&s" width="400"/>
      <h3 class="font-semibold text-white mb-1">
       Color Code Analyzer
      </h3>
@@ -269,7 +276,7 @@
    </div>
   </section>
   <!-- Skills & Technologies Section -->
-  <section class="bg-[#fcd9d0] text-[#0c4a6e] py-12 px-6 max-w-7xl mx-auto">
+  <section class="bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 text-[#0c4a6e] py-12 px-6 max-w-7xl mx-auto" id="skills">
    <h2 class="text-center font-semibold mb-8">
     Skills &amp; Technologies
    </h2>
@@ -378,12 +385,13 @@
   </section>
 
   <!-- Education & Experience Section -->
-  <section class="bg-gradient-to-r from-[#0f3a52] via-[#0a4e66] to-[#168296] py-12 px-6 max-w-7xl mx-auto rounded-md">
+  <section class="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 py-12 px-6 max-w-7xl mx-auto rounded-md" id="education">
    <h1 class="text-center font-semibold mb-8 text-white">
     Education &amp; Experience
    </h1>
-   <div class="max-w-4xl mx-auto space-y-6 text-xs sm:text-sm text-white/90">
-    <div class="bg-white/20 rounded-md p-4">
+   <div class="max-w-4xl mx-auto space-y-6 text-xs sm:text-sm text-white/90 ">
+    <div class="bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 text-black rounded-md p-4 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <h3 class="font-semibold mb-1">
       Education
      </h3>
@@ -394,7 +402,8 @@
       Expected Graduation: 2025
      </p>
     </div>
-    <div class="bg-white/20 rounded-md p-5">
+    <div class="bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 text-black rounded-md p-5 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <h3 class="font-bold mb-2">
       Professional Experience
      </h3>
@@ -414,12 +423,13 @@
    </div>
   </section>
 
-  <section class="bg-gradient-to-r from-[#0f3a52] via-[#0a4e66] to-[#168296] py-12 px-6 max-w-7xl mx-auto">
+  <section class="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 py-12 px-6 max-w-7xl mx-auto" id="certificates">
    <h2 class="text-center font-semibold mb-8 text-white">
     CERTIFICATES
    </h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    <div class="bg-white/20 rounded-md p-4">
+    <div class="bg-white/20 rounded-md p-4 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <img alt="AuditAvenger project showing a laptop with audit management system interface and people collaborating" class="rounded-md mb-3 w-full object-cover h-50" height="250" src="/photos/Jala Academy certificate.jpg" width="400"/>
      <h3 class="font-bold text-sm-white mb-0">
       CERTIFICATE OF INTERNSHIP
@@ -436,14 +446,15 @@
        </i>
 
       </a>
-      <a class="flex items-center gap-1 hover:text-white" href="https://auditavengers-production.up.railway.app/">
+      <a class="flex items-center gap-1 hover:text-white" href="https://www.linkedin.com/in/rajesh-koneru-0956b9318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
        <i class="fab fa-linkedIn">
        </i>
 
       </a>
      </div>
     </div>
-     <div class="bg-white/20 rounded-md p-4">
+     <div class="bg-white/20 rounded-md p-4 hover:scale-105 hover:shadow-xl
+            transition duration-500 ease-in-out">
      <img alt="AuditAvenger project showing a laptop with audit management system interface and people collaborating" class="rounded-md mb-3 w-full object-cover h-60" height="200" src="/photos/cong.jpg" width="400"/>
      <h3 class="font-semibold text-white mb-0">
       CERTIFICATE OF INTERNSHIP
@@ -460,7 +471,7 @@
        </i>
 
       </a>
-      <a class="flex items-center gap-1 hover:text-white" href="https://auditavengers-production.up.railway.app/">
+      <a class="flex items-center gap-1 hover:text-white" href="https://www.linkedin.com/in/rajesh-koneru-0956b9318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
        <i class="fab fa-linkedIn">
        </i>
 
@@ -471,7 +482,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="bg-[#fcd9d0] text-[#0c4a6e] py-12 px-6 max-w-7xl mx-auto">
+  <section class="bg-blue-800 text-white py-12 px-6 max-w-7xl mx-auto">
    <h2 class="text-center font-semibold mb-8">
     Get in Touch
    </h2>
@@ -480,39 +491,39 @@
      <span>
       Name
      </span>
-     <input class="mt-1 block w-full rounded bg-white border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="name" required="" type="text"/>
+     <input class="mt-1 block w-full rounded bg-blue-200 border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="name" required="" type="text"/>
     </label>
     <label class="block">
      <span>
       Email
      </span>
-     <input class="mt-1 block w-full rounded bg-white border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="email" required="" type="email"/>
+     <input class="mt-1 block w-full rounded bg-blue-200 border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="email" required="" type="email"/>
     </label>
     <label class="block">
      <span>
       Message
      </span>
-     <textarea class="mt-1 block w-full rounded bg-white border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="message" required="" rows="4"></textarea>
+     <textarea class="mt-1 block w-full rounded bg-blue-200 border border-gray-300 px-3 py-1 text-[#0c4a6e] focus:outline-none focus:ring-2 focus:ring-[#0c4a6e]" name="message" required="" rows="4"></textarea>
     </label>
     <button class="w-full bg-[#0c4a6e] text-white py-2 rounded text-sm font-semibold hover:bg-[#093a52] transition" type="submit">
      Send Message
     </button>
    </form>
    <div class="max-w-md mx-auto mt-6 flex justify-center space-x-6 text-[#0c4a6e] text-lg">
-    <a aria-label="LinkedIn" class="hover:text-[#093a52]" href="#">
-     <i class="fab fa-linkedin">
+    <a aria-label="LinkedIn" class="hover:text-blue-300 text-white" href="https://www.linkedin.com/in/rajesh-koneru-0956b9318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+     <i class="fab fa-linkedin text-lg hover:text-xl transition-all duration-500 ease-in-out">
      </i>
     </a>
-    <a aria-label="GitHub" class="hover:text-[#093a52]" href="#">
-     <i class="fab fa-github">
+    <a aria-label="GitHub" class="hover:text-blue-300 text-white" href="https://github.com/Rajesh-koneru">
+     <i class="fab fa-github text-lg hover:text-xl transition-all duration-500 ease-in-out">
      </i>
     </a>
-    <a aria-label="Instagram" class="hover:text-[#093a52]" href="#">
-     <i class="fab fa-instagram">
+    <a aria-label="Instagram" class="hover:text-blue-300 text-white" href="#">
+     <i class="fab fa-instagram text-lg hover:text-xl transition-all duration-500 ease-in-out">
      </i>
     </a>
-    <a aria-label="Email" class="hover:text-[#093a52]" href="#">
-     <i class="fas fa-envelope">
+    <a aria-label="Email" class="hover:text-blue-300 text-white" href="mailto:rajeshkoneru29@gmail.com">
+     <i class="fas fa-envelope text-lg hover:text-xl transition-all duration-500 ease-in-out">
      </i>
     </a>
    </div>
